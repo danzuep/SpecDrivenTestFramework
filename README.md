@@ -67,12 +67,3 @@ Contribution
 - Follow the constitution in `.specify/memory/constitution.md` — tests, code
   quality, and minimal dependencies are required. Open a PR against `main` and
   include links to the relevant spec or task.
-
-License
-- Specify project license in `LICENSE` (add as appropriate).
-
-Contact / Next steps
-- To start work on the Kotlin PoC, see `specs/1-record-replay-framework/tasks.md`.
-- If you'd like, I can scaffold the Gradle project and initial Kotlin source
-  files for `RecordedEvent`, fixture IO, and an OkHttp interceptor. Reply with
-  `scaffold` to proceed.
