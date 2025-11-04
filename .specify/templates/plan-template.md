@@ -31,7 +31,19 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+This plan MUST document how the feature aligns with the project constitution.
+At minimum, confirm the following checks and include short justifications:
+
+- Code Quality: Tests included (unit and required integration) and linting
+  configuration present.
+- Modularity: Proposed module boundaries and public APIs are documented; any
+  interface changes include compatibility notes.
+- Simple UX: Default configuration delivers a usable experience with clear
+  error messages; quickstart documented.
+- Minimal Dependencies: New dependencies are justified, licensed, and pinned.
+
+If any check cannot be satisfied at planning time, document the mitigation and
+acceptance criteria for Phase 1.
 
 ## Project Structure
 

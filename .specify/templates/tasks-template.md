@@ -18,6 +18,13 @@ description: "Task list template for feature implementation"
 - **[Story]**: Which user story this task belongs to (e.g., US1, US2, US3)
 - Include exact file paths in descriptions
 
+### Constitution Compliance
+
+All generated tasks MUST reference the governing constitution principles where
+relevant (e.g., tag tasks that implement tests as Code Quality, tasks that
+refactor module boundaries as Modularity). This ensures automation and reviewers
+can quickly verify alignment with core principles.
+
 ## Path Conventions
 
 - **Single project**: `src/`, `tests/` at repository root
